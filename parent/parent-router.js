@@ -89,7 +89,7 @@ router.get('/food/parent/:parentId', async (req, res) => {
 });
 
 // get food entries from child (childId) over last timespan (day, week, or month)
-//  with option query to specify a date that isn't today ?date='2018-09-24'
+//  with option query to specify a date that isn't today ?date='2020-09-24'
 
 router.get('/entries/:child/:timespan', async (req, res) => {
   let useDate;

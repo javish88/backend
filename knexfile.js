@@ -5,8 +5,10 @@ types.setTypeParser(1082, (val) => val);
 
 module.exports = {
   development: {
-    client: 'pg',
-    connection: 'postgres://localhost/gigapets',
+    client: 'sqlite3',
+    connection: {
+      filename:'./db/test.db3'
+    },
     migrations: {
       directory: './db/migrations'
     },
@@ -17,8 +19,8 @@ module.exports = {
   },
 
   testing: {
-    client: 'pg',
-    connection: 'postgres://localhost/gigapets_test',
+    client: 'sqlite3',
+    connection: './db/test.db3',
     migrations: {
       directory: './db/migrations/test'
     },

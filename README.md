@@ -2,7 +2,7 @@
 
 ## API Base URL
 
-## will launch API BASE URL later in the day please be patient 
+## https://gigapet2020.herokuapp.com/
 
 ### Server Running Check
 
@@ -208,7 +208,7 @@
 
  "id": 9,
 
- "date": "2019-12-31" 
+ "date": "2020-02-01" 
 
 }
 
